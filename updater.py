@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 # --- CONFIGURAZIONE DELL'UPDATER ---
 # Modifica questi valori se il tuo repository cambia
-GITHUB_REPO = "nzo66/EasyProxy"
+GITHUB_REPO = "agc65/EasyProxy"
 BRANCH = "main"
 
 # Elenco dei file da tenere aggiornati.
@@ -83,4 +83,5 @@ def check_for_updates():
     if updated_files_count > 0:
         logger.info(f"🎉 Aggiornamento completato. {updated_files_count} file sono stati aggiornati. Riavvia l'applicazione per applicare le modifiche.")
     else:
+
         logger.info("✅ Tutti i file sono già alla versione più recente.")
